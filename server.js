@@ -7,7 +7,7 @@ const PDFDocument = require('pdfkit');
 const archiver = require('archiver');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DB_PATH = path.join(__dirname, 'db.json');
 const PROTECTED_DIR = path.join(__dirname, 'protected_files');
 const SOURCE_IMAGE = path.join(PROTECTED_DIR, 'kk.png');
