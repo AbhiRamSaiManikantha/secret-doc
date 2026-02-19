@@ -1,0 +1,17 @@
+{
+  "claimed": false,
+  "token": null,
+  "tokenExpiry": 0,
+  "passed": false,
+  "q3Description": "click yes if no, click no if yes",
+  "questions": [
+    "HOW DO YOU SAY SORRY (answer in small letters)",
+    "FILL THIS BLANK ARRAY____ (answer in capital letters)",
+    "ARE YOU INTRESTED IN READING THIS QUESTION"
+  ],
+  "answers": [
+    "kurkure",
+    "YOU",
+    null
+  ]
+}

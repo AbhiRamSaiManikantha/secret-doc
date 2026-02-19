@@ -1,0 +1,15 @@
+{
+  "name": "secret-doc",
+  "version": "1.0.0",
+  "description": "Secure one-time document delivery system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^4.21.0",
+    "pdfkit": "^0.15.0",
+    "sharp": "^0.33.5"
+  }
+}

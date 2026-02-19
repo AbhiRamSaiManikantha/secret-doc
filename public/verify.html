@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verify identity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Document verification</h1>
+      <p class="subtitle">Answer the questions below to access your document.</p>
+    </header>
+
+    <div id="claimed-message" class="panel claimed-panel" hidden>
+      <p class="claimed-text">This document has already been claimed.</p>
+    </div>
+
+    <div id="verify-panel" class="panel">
+      <form id="verify-form">
+        <div id="questions-container"></div>
+        <p id="verify-error" class="error" hidden></p>
+      </form>
+    </div>
+
+    <div id="success-panel" class="panel" hidden>
+      <p class="success-text">Verification successful. Choose your download format:</p>
+      <div class="format-buttons">
+        <button type="button" data-format="png">PNG</button>
+        <button type="button" data-format="jpg">JPG</button>
+        <button type="button" data-format="pdf">PDF</button>
+        <button type="button" data-format="zip">ZIP</button>
+      </div>
+      <p id="download-hint" class="hint" hidden>Your download will start shortly. Token valid for 10 seconds.</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
